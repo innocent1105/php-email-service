@@ -21,52 +21,44 @@ I had to build this too for quick notifications in my PHP apps, i Love PHP!
 - An active Gmail account
 - PHPMailer library
 
----
 
 ## Installation
 
 1. **Clone the project** or download the script:
-   ```bash
+   :: Run in terminal 
    git clone https://github.com/innocent1105/php-email-service.git
    cd phpmailer-smtp-sender
-````
+
 
 2. **Install PHPMailer via Composer**:
-
-   ```bash
+   :: Run in terminal 
    composer require phpmailer/phpmailer
-   ```
 
 3. **Update email credentials** in the script:
 
-   ```php
+   :: In your PHP script
    $mail->Username = 'your-email@gmail.com';
    $mail->Password = 'your-app-password'; // Use an App Password
-   ```
 
----
 
 ## 🧪 Usage
 
 1. Start your PHP server (e.g. XAMPP or built-in PHP server):
 
-   ```bash
+   :: Run in terminal 
    php -S localhost:8000
-   ```
 
 2. Access the script in your browser:
-
-   ```
+   :: Run in browser
+   
    http://localhost:8000/sendmail.php
-   ```
 
-3. You should see:
+
+4. You should see:
 
    ```
    Email sent successfully!
    ```
-
----
 
 ## 🔐 Security Note
 
@@ -82,21 +74,19 @@ I had to build this too for quick notifications in my PHP apps, i Love PHP!
 
 ## 📄 Example
 
-```php
+:: Run in PHP script
 $mail->setFrom('your-email@gmail.com', 'Your Name');
 $mail->addAddress('recipient@example.com', 'Recipient Name');
 $mail->Subject = 'Test Email';
 $mail->Body    = 'This is a test email using PHPMailer and Gmail SMTP.';
-```
 
----
 
 ## 📚 Resources
 
 * [PHPMailer GitHub](https://github.com/PHPMailer/PHPMailer)
 * [Gmail App Password Guide](https://support.google.com/accounts/answer/185833)
 
----
+
 
 ## 🧑‍💻 Author
 
