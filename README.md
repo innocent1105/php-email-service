@@ -24,7 +24,7 @@ I had to build this too for quick notifications in my PHP apps, i Love PHP!
 
 ## Installation
 
-1. **Clone the project** or download the script:
+1. **Clone the project** or download the script
    :: Run in terminal 
    git clone https://github.com/innocent1105/php-email-service.git
    cd phpmailer-smtp-sender
